@@ -1,0 +1,41 @@
+body {
+  margin: 0;
+  background: #f4f4f4;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  width: 450px;
+  margin: 60px auto;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  box-sizing: border-box;
+}
+
+button {
+  width: 100%;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.card {
+  margin-top: 20px;
+  border: 1px solid #ddd;
+  padding: 15px;
+}
+
+.error {
+  margin-top: 15px;
+  color: red;
+}
