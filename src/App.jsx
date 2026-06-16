@@ -17,7 +17,7 @@ function App() {
 
       const response =
         await axios.post(
-          "http://localhost:5000/scrape",
+          "https://data-scraper-project-production.up.railway.app/scrape",
           {
             username,
             password,
